@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../Assets/Momentum_Icon.png"
+      type="image/x-icon"
+      sizes="10x10"
+    />
+    <link rel="stylesheet" href="../Styles/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>Momentum</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav-container flex">
+        <div class="link-container">
+          <div class="checkbox__click">
+            <label for="none">Links</label>
+            <input type="checkbox" name="none" id="none" />
+            <ul class="link-container__content">
+              <li>
+                <a href="#" class="chrome-link"
+                  ><i class="fab fa-chrome"></i>Chrome Tabs</a
+                >
+              </li>
+              <li><a href="#">Apps</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="search-container">
+          <i class="fas fa-search"></i>
+          <div class="hide-visible">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Type to Search"
+            />
+
+            <div class="search__engine_select">
+              <label for="none1"> </label>
+              <div class="select__engine">
+                <i class="fab fa-google"></i><i class="fas fa-chevron-down"></i>
+              </div>
+              <input type="checkbox" name="none" id="none1" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="weather-container">
+        <a href="#" class="icon">
+          <h2><i class="fas fa-plus-circle"></i></h2>
+          <p>Add</p>
+        </a>
+
+        <div>
+          <div class="flex">
+            <div class="weather-header">
+              <i class="fas fa-cloud"></i>
+              <h2>25&deg;</h2>
+            </div>
+          </div>
+          <p>Dharmapuri</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="time"><h1>3:37</h1></div>
+      <div class="greeting">Good afternoon, Pradeep.</div>
+      <div class="tasks">
+        <h2>What is your main goal Today?</h2>
+        <input type="text" name="task" />
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="bg-info flex">
+        <i class="fas fa-cog"></i>
+        <p>California,USA</p>
+      </div>
+      <div class="quote">
+        <p>Why fit in when you were born to stand out?</p>
+      </div>
+      <div class="todo">
+        <label for="todo">Todo</label>
+        <input type="checkbox" name="todo" id="todo" />
+        <ul class="todo-list" contenteditable="true">
+          <li>
+            <input type="checkbox" name="check" id="check" />
+            <p>Task 01</p>
+          </li>
+          <li>
+            <input type="checkbox" name="check" id="check" />
+            <p>Task 02</p>
+          </li>
+          <li>
+            <input type="checkbox" name="check" id="check" />
+            <p>Task 03</p>
+          </li>
+          <li>
+            <input type="checkbox" name="check" id="check" />
+            <p>Task 04</p>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
